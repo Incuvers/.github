@@ -1,0 +1,55 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"extensions": {
+		"recommendations": [
+		  "ms-vscode.cpptools",
+		  "yzhang.markdown-all-in-one",
+		  "ms-python.python",
+		  "visualstudioexptteam.vscodeintellicode",
+		  "ms-vscode-remote.remote-ssh",
+		  "eamodio.gitlens",
+		  "ms-python.vscode-pylance",
+		  "njpwerner.autodocstring",
+		  "kevinglasson.cornflakes-linter"
+		]
+	},
+	"settings": {
+		"python.formatting.provider": "autopep8",
+		"python.formatting.autopep8Args": [
+			"--ignore=E701",
+			"--max-line-length",
+			"100"
+		],
+		"autoDocstring.docstringFormat": "sphinx",
+		"python.analysis.typeCheckingMode": "basic",
+		"python.analysis.autoImportCompletions": true,
+		"python.linting.enabled": true,	
+		"python.linting.lintOnSave": true,
+		"[python]": {
+            "gitlens.codeLens.symbolScopes": [
+                "!Module"
+            ],
+            "editor.wordBasedSuggestions": false,
+            "editor.formatOnSave": true,
+            "editor.rulers": [100],
+            "editor.wordWrap": "on"
+        },
+        "[cpp]": {
+            "editor.wordBasedSuggestions": false,
+            "editor.suggest.insertMode": "replace",
+            "editor.suggestSelection": "first",
+            "editor.semanticHighlighting.enabled": true,
+            "editor.formatOnSave": true,
+            "editor.rulers": [80],
+        },
+        "C_Cpp.clang_format_fallbackStyle": "{ BasedOnStyle: Google, IndentWidth: 2, ColumnLimit: 0}",
+        "C_Cpp.errorSquiggles": "EnabledIfIncludesResolve",
+        "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+        "cpplint.lintMode": "workspace",
+        "cpplint.root": "${workspaceFolder}",
+	}
+}
