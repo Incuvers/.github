@@ -1,0 +1,44 @@
+{
+    "env": {
+        "myDefaultIncludePath": [
+            "${workspaceFolder}/**"
+        ]
+    },
+    "configurations": [
+        {
+            "name": "Mac",
+            "intelliSenseMode": "gcc-x64",
+            "compilerPath": "/Users/${USER}/Library/Arduino15/packages/arduino/tools/avr-gcc/7.3.0-atmel3.6.1-arduino7/bin/avr-gcc",
+            "cStandard": "gnu11",
+            "cppStandard": "gnu++14",
+            "includePath": [
+                "${myDefaultIncludePath}",
+                "/Users/${USER}/Documents/Arduino/libraries/**",
+                "/Users/${USER}/Library/Arduino15/packages/arduino/hardware/avr/1.8.3/libraries/**",
+                "/Users/${USER}/Library/Arduino15/packages/arduino/hardware/avr/1.8.3/cores/arduino",
+                "/Users/${USER}/Library/Arduino15/packages/arduino/tools/avr-gcc/7.3.0-atmel3.6.1-arduino7/avr/include",
+                "/Users/${USER}/Library/Arduino15/packages/arduino/hardware/avr/1.8.3/variants/standard"
+            ],
+            "macFrameworkPath": [
+                "/System/Library/Frameworks"
+            ],
+            "forcedInclude": [
+                "/Users/${USER}/Library/Arduino15/packages/arduino/hardware/avr/1.8.3/cores/arduino/Arduino.h"
+            ],
+            "browse": {
+                "path": [
+                    "${workspaceFolder}",
+                    "/Users/${USER}/Library/Arduino15/packages/arduino/hardware/avr/1.8.3/libraries",
+                    "/Users/${USER}/Library/Arduino15/packages/arduino/hardware/avr/1.8.3/cores/arduino",
+                    "/Users/${USER}/Documents/Arduino/libraries"
+                ],
+                "limitSymbolsToIncludedHeaders": true
+            },
+            "defines": [
+                "USBCON",
+                "ARDUINO=10813"
+            ]
+        }
+    ],
+    "version": 4
+}
