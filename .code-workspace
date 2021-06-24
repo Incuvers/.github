@@ -7,6 +7,7 @@
 	"extensions": {
 		"recommendations": [
 		  "ms-vscode.cpptools",
+		  cschlosser.doxdocgen,
 		  "yzhang.markdown-all-in-one",
 		  "ms-python.python",
 		  "visualstudioexptteam.vscodeintellicode",
