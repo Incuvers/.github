@@ -4,3 +4,4 @@ cpplint
 yamllint
 shellcheck-py
 coverage>=5.3
+sphinx>=3.2.1
