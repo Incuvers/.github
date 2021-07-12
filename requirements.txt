@@ -3,3 +3,4 @@ flake8
 cpplint
 yamllint
 shellcheck-py
+coverage>=5.3
